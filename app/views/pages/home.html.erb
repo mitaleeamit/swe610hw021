@@ -8,6 +8,11 @@
 <!-- CONFUSING CODE, DO NOT MODIFY -->
 <!-- CONFUSING CODE, DO NOT MODIFY -->
 <%= form_tag stringify_path do %>
+
+<!-- Question1-->
+<%= form_tag stringify_path  @post do %>
+
+
   <%= label_tag :name, "Your Name here!" %>
   <%= text_area_tag :name %>
   <%= label_tag :adjective, "An adjective here!" %>

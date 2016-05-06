@@ -5,8 +5,13 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'age', to: 'pages#age'
   
+  # Question3
+  get 'age', to: 'pages#person'
+  put 'age', to: 'pages#person'
+  
+  
   # Question1 
-  get 'stringify', to:'pages#stringify'
+  #get 'stringify', to:'pages#stringify'
   post 'stringify', to:'pages#stringify'
   
   # Example of regular route:

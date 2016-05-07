@@ -14,6 +14,9 @@ Rails.application.routes.draw do
   #get 'stringify', to:'pages#stringify'
   post 'stringify', to:'pages#stringify'
   
+   # Question4
+  get 'me' , to:"pages#me"
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

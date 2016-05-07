@@ -46,4 +46,10 @@ class PagesController < ApplicationController
      @per=Person.new(name,age.to_i)
      
   end
+  
+  #Question4
+  
+  def me
+      
+   end
 end
